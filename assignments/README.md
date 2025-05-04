@@ -26,7 +26,7 @@ R = np.array([[0.1]])  # Control effort cost
 ### Updated LQR Parameters
 ```python
 self.Q = np.diag([1.0, 3.0, 1.0, 3.0])  # State cost
-self.R = np.array([[0.1]])  # Control cost
+self.R = np.array([[0.01]])  # Control cost
 ```
 - **Increased weight on cart velocity (Q[1,1]):** Aids in better control of cart motion.
 - **Less weight on the pendulum angle (Q[2,2]):** Permits small variations without requiring drastic adjustments.
@@ -111,8 +111,10 @@ Several simulations were run, and the outcomes before and after tuning were comp
 - **Cart Input vs Time**
 - **Cart Position vs Time**
 - **Pendulum Angle vs Time**
--  ![image](https://github.com/user-attachments/assets/55e56a65-a04f-49be-be7d-638452d6c275)
-![image](https://github.com/user-attachments/assets/55347bcf-fcd1-4a7d-b818-4131d6074875)
+-  ![image]![image](https://github.com/user-attachments/assets/65d93ceb-3451-41ff-ad11-da8f8b50092a)
+
+![image]![image](https://github.com/user-attachments/assets/4f5d59df-c9cf-4547-984b-535be94efddf)
+
 CART INPUT VS TIME:![image](https://github.com/user-attachments/assets/b030565c-740c-41e1-becc-45b5227c9bbd)
 ![image](https://github.com/user-attachments/assets/aeec77a5-d28a-4333-9cd3-5e9eaf702167)
 CART POSITION VS TIME ![Screenshot 2025-05-03 182526](https://github.com/user-attachments/assets/c1ee9943-6caa-4688-aa0d-d3ee27c60782)
