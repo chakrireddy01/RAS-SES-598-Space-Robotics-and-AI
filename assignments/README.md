@@ -115,8 +115,9 @@ Several simulations were run, and the outcomes before and after tuning were comp
 ![image](https://github.com/user-attachments/assets/55347bcf-fcd1-4a7d-b818-4131d6074875)
 CART INPUT VS TIME:![image](https://github.com/user-attachments/assets/b030565c-740c-41e1-becc-45b5227c9bbd)
 ![image](https://github.com/user-attachments/assets/aeec77a5-d28a-4333-9cd3-5e9eaf702167)
-CART POSITION VS TIME ![image](https://github.com/user-attachments/assets/92c83941-2bdf-4cd9-8278-22f0e6c5fe03)
-![image](https://github.com/user-attachments/assets/602917b0-f5a8-4acb-8c98-4d006293dbbd)
+CART POSITION VS TIME ![Screenshot 2025-05-03 182526](https://github.com/user-attachments/assets/c1ee9943-6caa-4688-aa0d-d3ee27c60782)
+![Screenshot 2025-05-03 182437](https://github.com/user-attachments/assets/4e45b98a-0764-4e53-93a8-69c0371c8ad1)
+
 
 
 Pendulum angle vs time :![image](https://github.com/user-attachments/assets/7d1d3cf6-e1ec-4379-b569-0e244b276ccb)
