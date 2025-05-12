@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cart-pole-optimal-control
+Version: 0.0.1
+Summary: ROS2 package for cart-pole control using LQR
+Maintainer: Jnaneshwar Das
+Maintainer-email: jdas5@asu.edu
+License: Creative Commons Attribution 4.0

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dreams-stereo
+Version: 0.0.1
+Summary: Custom stereo processing package for ZED2 camera
+Maintainer: jdas
+Maintainer-email: jdas@todo.todo
+License: Apache License 2.0

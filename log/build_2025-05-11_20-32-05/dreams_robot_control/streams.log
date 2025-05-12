@@ -1,0 +1,26 @@
+[5.592s] Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/build --no-deps symlink_data
+[6.000s] running develop
+[6.161s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.161s]   self.local_index = Environment(self.shadow_path + sys.path)
+[6.200s] running egg_info
+[6.200s] creating dreams_robot_control.egg-info
+[6.224s] writing dreams_robot_control.egg-info/PKG-INFO
+[6.224s] writing dependency_links to dreams_robot_control.egg-info/dependency_links.txt
+[6.224s] writing entry points to dreams_robot_control.egg-info/entry_points.txt
+[6.225s] writing requirements to dreams_robot_control.egg-info/requires.txt
+[6.225s] writing top-level names to dreams_robot_control.egg-info/top_level.txt
+[6.226s] writing manifest file 'dreams_robot_control.egg-info/SOURCES.txt'
+[6.272s] reading manifest file 'dreams_robot_control.egg-info/SOURCES.txt'
+[6.275s] writing manifest file 'dreams_robot_control.egg-info/SOURCES.txt'
+[6.293s] running build_ext
+[6.293s] Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/python3.12/site-packages/dreams-robot-control.egg-link (link to .)
+[6.294s] Installing circular_trajectory_controller script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/dreams_robot_control
+[6.295s] 
+[6.295s] Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control
+[6.295s] running symlink_data
+[6.295s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/ament_index
+[6.295s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/ament_index/resource_index
+[6.295s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/ament_index/resource_index/packages
+[6.295s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/resource/dreams_robot_control -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/ament_index/resource_index/packages
+[6.296s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/package.xml -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control
+[6.728s] Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/build --no-deps symlink_data

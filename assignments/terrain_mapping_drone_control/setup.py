@@ -56,6 +56,8 @@ setup(
             'pose_visualizer = terrain_mapping_drone_control.pose_visualizer:main',
             'spiral_trajectory = terrain_mapping_drone_control.spiral_trajectory:main',
             'aruco_tracker = terrain_mapping_drone_control.aruco_tracker:main',
+            'mission_node = terrain_mapping_drone_control.mission_node:main',
+
         ],
     },
     python_requires='>=3.8'

@@ -1,0 +1,2 @@
+[console_scripts]
+circular_trajectory_controller = dreams_robot_control.circular_trajectory_controller:main

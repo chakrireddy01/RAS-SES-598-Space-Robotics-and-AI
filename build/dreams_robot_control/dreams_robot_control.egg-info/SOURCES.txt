@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+dreams_robot_control/__init__.py
+dreams_robot_control/circular_trajectory_controller.py
+dreams_robot_control.egg-info/PKG-INFO
+dreams_robot_control.egg-info/SOURCES.txt
+dreams_robot_control.egg-info/dependency_links.txt
+dreams_robot_control.egg-info/entry_points.txt
+dreams_robot_control.egg-info/requires.txt
+dreams_robot_control.egg-info/top_level.txt
+dreams_robot_control.egg-info/zip-safe
+resource/dreams_robot_control

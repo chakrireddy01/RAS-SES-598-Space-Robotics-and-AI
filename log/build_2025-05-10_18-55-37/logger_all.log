@@ -1,0 +1,269 @@
+[0.257s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'terrain_mapping_drone_control', '--symlink-install']
+[0.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['terrain_mapping_drone_control'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7400a289f230>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7400a289efc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7400a289efc0>>, mixin_verb=('build',))
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.382s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'assignments/cart_pole_optimal_control' with type 'ros.ament_python' and name 'cart_pole_optimal_control'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'assignments/first_order_boustrophedon_navigator' with type 'ros.ament_python' and name 'first_order_boustrophedon_navigator'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'assignments/terrain_mapping_drone_control' with type 'ros.ament_python' and name 'terrain_mapping_drone_control'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'python'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['python_setup_py']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'samples/dreams_robot_control' with type 'ros.ament_python' and name 'dreams_robot_control'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'samples/dreams_stereo' with type 'ros.ament_python' and name 'dreams_stereo'
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.468s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cart_pole_optimal_control' in 'assignments/cart_pole_optimal_control'
+[0.468s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dreams_robot_control' in 'samples/dreams_robot_control'
+[0.468s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dreams_stereo' in 'samples/dreams_stereo'
+[0.468s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'first_order_boustrophedon_navigator' in 'assignments/first_order_boustrophedon_navigator'
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.470s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.514s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.518s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install
+[0.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 452 installed packages in /opt/ros/jazzy
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_target' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.713s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_mapping_drone_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control', 'merge_install': False, 'path': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/terrain_mapping_drone_control', 'symlink_install': True, 'test_result_base': None}
+[0.714s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.716s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/terrain_mapping_drone_control' with build type 'ament_python'
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'ament_prefix_path')
+[0.726s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/ament_prefix_path.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/ament_prefix_path.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/ament_prefix_path.sh'
+[0.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.320s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/terrain_mapping_drone_control'
+[1.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/build --no-deps symlink_data
+[4.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'pythonpath_develop')
+[4.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath_develop.ps1'
+[4.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath_develop.dsv'
+[4.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath_develop.sh'
+[4.634s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control' for CMake module files
+[4.634s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control' for CMake config files
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib'
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin'
+[4.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'path')
+[4.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/path.ps1'
+[4.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/path.dsv'
+[4.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/path.sh'
+[4.637s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/pkgconfig/terrain_mapping_drone_control.pc'
+[4.637s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages'
+[4.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'pythonpath')
+[4.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath.ps1'
+[4.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath.dsv'
+[4.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath.sh'
+[4.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/build --no-deps symlink_data
+[4.641s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin'
+[4.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'pythonscriptspath')
+[4.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonscriptspath.ps1'
+[4.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonscriptspath.dsv'
+[4.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonscriptspath.sh'
+[4.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_mapping_drone_control)
+[4.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.ps1'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.dsv'
+[4.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.sh'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.bash'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.zsh'
+[4.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/colcon-core/packages/terrain_mapping_drone_control)
+[4.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.651s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.736s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.810s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.ps1'
+[4.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/_local_setup_util_ps1.py'
+[4.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.ps1'
+[4.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.sh'
+[4.824s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/_local_setup_util_sh.py'
+[4.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.sh'
+[4.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.bash'
+[4.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.bash'
+[4.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.zsh'
+[4.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.zsh'

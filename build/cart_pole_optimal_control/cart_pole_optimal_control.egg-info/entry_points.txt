@@ -1,0 +1,5 @@
+[console_scripts]
+earthquake_force_generator = cart_pole_optimal_control.earthquake_force_generator:main
+force_visualizer = cart_pole_optimal_control.force_visualizer:main
+lqr_controller = cart_pole_optimal_control.lqr_controller:main
+state_republisher = cart_pole_optimal_control.state_republisher:main

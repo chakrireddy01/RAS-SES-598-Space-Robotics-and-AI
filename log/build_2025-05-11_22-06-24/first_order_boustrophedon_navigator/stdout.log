@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing first_order_boustrophedon_navigator.egg-info/PKG-INFO
+writing dependency_links to first_order_boustrophedon_navigator.egg-info/dependency_links.txt
+writing entry points to first_order_boustrophedon_navigator.egg-info/entry_points.txt
+writing requirements to first_order_boustrophedon_navigator.egg-info/requires.txt
+writing top-level names to first_order_boustrophedon_navigator.egg-info/top_level.txt
+reading manifest file 'first_order_boustrophedon_navigator.egg-info/SOURCES.txt'
+writing manifest file 'first_order_boustrophedon_navigator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages/first-order-boustrophedon-navigator.egg-link (link to .)
+Installing boustrophedon_controller script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/bin
+
+Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator
+running symlink_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: terrain-mapping-drone-control
+Version: 0.0.1
+Summary: A ROS2 package for executing spiral trajectory with PX4
+Maintainer: Your Name
+Maintainer-email: your.email@example.com
+License: Apache License 2.0
+Requires-Python: >=3.8

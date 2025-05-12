@@ -1,0 +1,19 @@
+[2.093s] Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/build --no-deps symlink_data
+[2.611s] running develop
+[2.811s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[2.811s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.847s] running egg_info
+[2.898s] writing first_order_boustrophedon_navigator.egg-info/PKG-INFO
+[2.898s] writing dependency_links to first_order_boustrophedon_navigator.egg-info/dependency_links.txt
+[2.898s] writing entry points to first_order_boustrophedon_navigator.egg-info/entry_points.txt
+[2.898s] writing requirements to first_order_boustrophedon_navigator.egg-info/requires.txt
+[2.898s] writing top-level names to first_order_boustrophedon_navigator.egg-info/top_level.txt
+[2.974s] reading manifest file 'first_order_boustrophedon_navigator.egg-info/SOURCES.txt'
+[2.974s] writing manifest file 'first_order_boustrophedon_navigator.egg-info/SOURCES.txt'
+[2.996s] running build_ext
+[2.997s] Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages/first-order-boustrophedon-navigator.egg-link (link to .)
+[2.997s] Installing boustrophedon_controller script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/bin
+[2.998s] 
+[2.998s] Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator
+[2.998s] running symlink_data
+[3.323s] Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/build --no-deps symlink_data

@@ -1,0 +1,60 @@
+running develop
+running egg_info
+creating terrain_mapping_drone_control.egg-info
+writing terrain_mapping_drone_control.egg-info/PKG-INFO
+writing dependency_links to terrain_mapping_drone_control.egg-info/dependency_links.txt
+writing entry points to terrain_mapping_drone_control.egg-info/entry_points.txt
+writing requirements to terrain_mapping_drone_control.egg-info/requires.txt
+writing top-level names to terrain_mapping_drone_control.egg-info/top_level.txt
+writing manifest file 'terrain_mapping_drone_control.egg-info/SOURCES.txt'
+reading manifest file 'terrain_mapping_drone_control.egg-info/SOURCES.txt'
+writing manifest file 'terrain_mapping_drone_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages/terrain-mapping-drone-control.egg-link (link to .)
+Installing aruco_tracker script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+Installing cylinder_landing_node script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+Installing feature_tracker script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+Installing pose_visualizer script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+Installing px4_odom_converter script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+Installing spiral_trajectory script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+
+Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control
+running symlink_data
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/ament_index
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/ament_index/resource_index
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/ament_index/resource_index/packages
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/resource/terrain_mapping_drone_control -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/ament_index/resource_index/packages
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/package.xml -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/launch
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/launch/terrain_mapping.launch.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/launch
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/launch/rtabmap.launch.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/launch
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/launch/cylinder_landing.launch.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/launch
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/config
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/config/terrain_mapping_params.yaml -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/config
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/config/Default.perspective -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/config
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/config/drone_viz.rviz -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/config
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/terrain
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/terrain/model.config -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/terrain
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/terrain/model.sdf -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/terrain
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/terrain/meshes
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/terrain/meshes/artburysol175.stl -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/terrain/meshes
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder/model.config -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder/model.sdf -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder/materials
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder/materials/cylinder_texture.png -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder/materials
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder/materials/aruco_marker_0.png -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder/materials
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_small
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_small/materials
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_small/materials/textures
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/terrain_mapping_drone_control
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/terrain_mapping_drone_control/cylinder_landing_node.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/terrain_mapping_drone_control
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/terrain_mapping_drone_control/aruco_tracker.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/terrain_mapping_drone_control
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_short
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder_short/model.config -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_short
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder_short/model.sdf -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_short
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_short/materials
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder_short/materials/cylinder_texture.png -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_short/materials
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/models/cylinder_short/materials/aruco_marker_0.png -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_short/materials
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/models/cylinder_short/materials/textures

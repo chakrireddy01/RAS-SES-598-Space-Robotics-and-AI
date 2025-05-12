@@ -1,0 +1,38 @@
+[5.712s] Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/build --no-deps symlink_data
+[6.115s] running develop
+[6.292s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.292s]   self.local_index = Environment(self.shadow_path + sys.path)
+[6.327s] running egg_info
+[6.328s] creating cart_pole_optimal_control.egg-info
+[6.356s] writing cart_pole_optimal_control.egg-info/PKG-INFO
+[6.356s] writing dependency_links to cart_pole_optimal_control.egg-info/dependency_links.txt
+[6.356s] writing entry points to cart_pole_optimal_control.egg-info/entry_points.txt
+[6.356s] writing requirements to cart_pole_optimal_control.egg-info/requires.txt
+[6.357s] writing top-level names to cart_pole_optimal_control.egg-info/top_level.txt
+[6.357s] writing manifest file 'cart_pole_optimal_control.egg-info/SOURCES.txt'
+[6.465s] reading manifest file 'cart_pole_optimal_control.egg-info/SOURCES.txt'
+[6.467s] writing manifest file 'cart_pole_optimal_control.egg-info/SOURCES.txt'
+[6.483s] running build_ext
+[6.483s] Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/python3.12/site-packages/cart-pole-optimal-control.egg-link (link to .)
+[6.484s] Installing earthquake_force_generator script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/cart_pole_optimal_control
+[6.485s] Installing force_visualizer script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/cart_pole_optimal_control
+[6.485s] Installing lqr_controller script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/cart_pole_optimal_control
+[6.485s] Installing state_republisher script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/cart_pole_optimal_control
+[6.486s] 
+[6.486s] Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control
+[6.486s] running symlink_data
+[6.487s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/ament_index
+[6.487s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/ament_index/resource_index
+[6.487s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/ament_index/resource_index/packages
+[6.487s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/resource/cart_pole_optimal_control -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/ament_index/resource_index/packages
+[6.487s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/package.xml -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control
+[6.488s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/launch
+[6.488s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/launch/cart_pole_rviz.launch.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/launch
+[6.489s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/launch/cart_pole.launch.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/launch
+[6.489s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/config
+[6.489s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/config/cart_pole.rviz -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/config
+[6.489s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/models
+[6.490s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/models/cart_pole
+[6.490s] symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/models/cart_pole/model.urdf -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/models/cart_pole
+[6.490s] creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/models/cart_pole/meshes
+[6.873s] Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/build --no-deps symlink_data

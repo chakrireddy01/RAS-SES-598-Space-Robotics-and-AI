@@ -1,0 +1,446 @@
+[0.293s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.293s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c270b642150>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c270b641e80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c270b641e80>>, mixin_verb=('build',))
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.394s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/cart_pole_optimal_control) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'assignments/cart_pole_optimal_control' with type 'ros.ament_python' and name 'cart_pole_optimal_control'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/first_order_boustrophedon_navigator) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package 'assignments/first_order_boustrophedon_navigator' with type 'ros.ament_python' and name 'first_order_boustrophedon_navigator'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(assignments/terrain_mapping_drone_control) by extension 'ros'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'assignments/terrain_mapping_drone_control' with type 'ros.ament_python' and name 'terrain_mapping_drone_control'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(lectures) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extensions ['python_setup_py']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture1/_minted-lecture1) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(lectures/_minted-lecture2/_minted-lecture2) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_robot_control) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package 'samples/dreams_robot_control' with type 'ros.ament_python' and name 'dreams_robot_control'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(samples/dreams_stereo) by extension 'ros'
+[0.485s] DEBUG:colcon.colcon_core.package_identification:Package 'samples/dreams_stereo' with type 'ros.ament_python' and name 'dreams_stereo'
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.517s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_optimal_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'cart_pole_optimal_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control', 'merge_install': False, 'path': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/cart_pole_optimal_control', 'symlink_install': True, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'cmake_target' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'dreams_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'dreams_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control', 'merge_install': False, 'path': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/samples/dreams_robot_control', 'symlink_install': True, 'test_result_base': None}
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'dreams_stereo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'dreams_stereo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo', 'merge_install': False, 'path': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/samples/dreams_stereo', 'symlink_install': True, 'test_result_base': None}
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'first_order_boustrophedon_navigator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'first_order_boustrophedon_navigator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator', 'merge_install': False, 'path': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/first_order_boustrophedon_navigator', 'symlink_install': True, 'test_result_base': None}
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'terrain_mapping_drone_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_mapping_drone_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control', 'merge_install': False, 'path': '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/terrain_mapping_drone_control', 'symlink_install': True, 'test_result_base': None}
+[0.522s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.526s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.526s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/cart_pole_optimal_control' with build type 'ament_python'
+[0.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_pole_optimal_control', 'ament_prefix_path')
+[0.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/ament_prefix_path.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/ament_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/ament_prefix_path.sh'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/samples/dreams_robot_control' with build type 'ament_python'
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('dreams_robot_control', 'ament_prefix_path')
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/hook/ament_prefix_path.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/hook/ament_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/hook/ament_prefix_path.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.566s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.573s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/samples/dreams_stereo' with build type 'ament_python'
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('dreams_stereo', 'ament_prefix_path')
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/hook/ament_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/hook/ament_prefix_path.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/hook/ament_prefix_path.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.606s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/first_order_boustrophedon_navigator' with build type 'ament_python'
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_order_boustrophedon_navigator', 'ament_prefix_path')
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/ament_prefix_path.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/ament_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/ament_prefix_path.sh'
+[0.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.627s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/cart_pole_optimal_control'
+[1.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.829s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/samples/dreams_robot_control'
+[2.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.418s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/samples/dreams_stereo'
+[3.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.894s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/first_order_boustrophedon_navigator'
+[3.894s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/build --no-deps symlink_data
+[5.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/build --no-deps symlink_data
+[6.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/build --no-deps symlink_data
+[6.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/build --no-deps symlink_data
+[7.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('dreams_stereo', 'pythonpath_develop')
+[7.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/share/dreams_stereo/hook/pythonpath_develop.ps1'
+[7.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/build --no-deps symlink_data
+[7.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/share/dreams_stereo/hook/pythonpath_develop.dsv'
+[7.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/share/dreams_stereo/hook/pythonpath_develop.sh'
+[7.572s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo' for CMake module files
+[7.573s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo' for CMake config files
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib'
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/bin'
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/pkgconfig/dreams_stereo.pc'
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/python3.12/site-packages'
+[7.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('dreams_stereo', 'pythonpath')
+[7.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/hook/pythonpath.ps1'
+[7.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/hook/pythonpath.dsv'
+[7.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/hook/pythonpath.sh'
+[7.636s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/bin'
+[7.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dreams_stereo)
+[7.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/package.ps1'
+[7.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/package.dsv'
+[7.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/package.sh'
+[7.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/package.bash'
+[7.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/dreams_stereo/package.zsh'
+[7.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/share/colcon-core/packages/dreams_stereo)
+[7.684s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/terrain_mapping_drone_control' with build type 'ament_python'
+[7.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'ament_prefix_path')
+[7.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/ament_prefix_path.ps1'
+[7.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/ament_prefix_path.dsv'
+[7.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/ament_prefix_path.sh'
+[7.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_pole_optimal_control', 'pythonpath_develop')
+[7.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/pythonpath_develop.ps1'
+[7.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/pythonpath_develop.dsv'
+[7.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/build --no-deps symlink_data
+[7.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/pythonpath_develop.sh'
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control' for CMake module files
+[7.720s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control' for CMake config files
+[7.725s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib'
+[7.725s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/bin'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/pkgconfig/cart_pole_optimal_control.pc'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/lib/python3.12/site-packages'
+[7.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_pole_optimal_control', 'pythonpath')
+[7.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/pythonpath.ps1'
+[7.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/pythonpath.dsv'
+[7.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/hook/pythonpath.sh'
+[7.737s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/bin'
+[7.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cart_pole_optimal_control)
+[7.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/package.ps1'
+[7.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/package.dsv'
+[7.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/package.sh'
+[7.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/package.bash'
+[7.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/cart_pole_optimal_control/package.zsh'
+[7.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/cart_pole_optimal_control/share/colcon-core/packages/cart_pole_optimal_control)
+[8.697s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/assignments/terrain_mapping_drone_control'
+[8.697s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_order_boustrophedon_navigator', 'pythonpath_develop')
+[8.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath_develop.ps1'
+[8.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath_develop.dsv'
+[8.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/build --no-deps symlink_data
+[8.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath_develop.sh'
+[8.731s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator' for CMake module files
+[8.732s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator' for CMake config files
+[8.745s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib'
+[8.746s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/bin'
+[8.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_order_boustrophedon_navigator', 'path')
+[8.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/path.ps1'
+[8.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/path.dsv'
+[8.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/path.sh'
+[8.754s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/pkgconfig/first_order_boustrophedon_navigator.pc'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages'
+[8.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_order_boustrophedon_navigator', 'pythonpath')
+[8.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath.ps1'
+[8.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath.dsv'
+[8.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath.sh'
+[8.768s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/bin'
+[8.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_order_boustrophedon_navigator', 'pythonscriptspath')
+[8.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonscriptspath.ps1'
+[8.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonscriptspath.dsv'
+[8.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonscriptspath.sh'
+[8.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_order_boustrophedon_navigator)
+[8.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/package.ps1'
+[8.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/package.dsv'
+[8.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/package.sh'
+[8.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/package.bash'
+[8.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/package.zsh'
+[8.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/colcon-core/packages/first_order_boustrophedon_navigator)
+[8.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('dreams_robot_control', 'pythonpath_develop')
+[8.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/share/dreams_robot_control/hook/pythonpath_develop.ps1'
+[8.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/share/dreams_robot_control/hook/pythonpath_develop.dsv'
+[8.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/share/dreams_robot_control/hook/pythonpath_develop.sh'
+[8.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_robot_control/build --no-deps symlink_data
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control' for CMake module files
+[8.839s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control' for CMake config files
+[8.842s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib'
+[8.842s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/bin'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/pkgconfig/dreams_robot_control.pc'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/lib/python3.12/site-packages'
+[8.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('dreams_robot_control', 'pythonpath')
+[8.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/hook/pythonpath.ps1'
+[8.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/hook/pythonpath.dsv'
+[8.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/hook/pythonpath.sh'
+[8.868s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/bin'
+[8.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dreams_robot_control)
+[8.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/package.ps1'
+[8.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/package.dsv'
+[8.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/package.sh'
+[8.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/package.bash'
+[8.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/dreams_robot_control/package.zsh'
+[8.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_robot_control/share/colcon-core/packages/dreams_robot_control)
+[11.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/build --no-deps symlink_data
+[12.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'pythonpath_develop')
+[12.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath_develop.ps1'
+[12.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/build --no-deps symlink_data
+[12.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath_develop.dsv'
+[12.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath_develop.sh'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control' for CMake module files
+[12.388s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control' for CMake config files
+[12.389s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib'
+[12.389s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin'
+[12.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'path')
+[12.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/path.ps1'
+[12.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/path.dsv'
+[12.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/path.sh'
+[12.402s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/pkgconfig/terrain_mapping_drone_control.pc'
+[12.403s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages'
+[12.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'pythonpath')
+[12.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath.ps1'
+[12.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath.dsv'
+[12.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonpath.sh'
+[12.421s] Level 1:colcon.colcon_core.environment:checking '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin'
+[12.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_mapping_drone_control', 'pythonscriptspath')
+[12.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonscriptspath.ps1'
+[12.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonscriptspath.dsv'
+[12.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/hook/pythonscriptspath.sh'
+[12.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_mapping_drone_control)
+[12.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.ps1'
+[12.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.dsv'
+[12.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.sh'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.bash'
+[12.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/terrain_mapping_drone_control/package.zsh'
+[12.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/share/colcon-core/packages/terrain_mapping_drone_control)
+[12.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.451s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.497s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.635s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.ps1'
+[12.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/_local_setup_util_ps1.py'
+[12.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.ps1'
+[12.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.sh'
+[12.670s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/_local_setup_util_sh.py'
+[12.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.sh'
+[12.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.bash'
+[12.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.bash'
+[12.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/local_setup.zsh'
+[12.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/setup.zsh'

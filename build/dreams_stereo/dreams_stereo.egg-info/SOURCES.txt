@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+dreams_stereo/__init__.py
+dreams_stereo/feature_matcher.py
+dreams_stereo/feature_tracker.py
+dreams_stereo/stereo_processor.py
+dreams_stereo.egg-info/PKG-INFO
+dreams_stereo.egg-info/SOURCES.txt
+dreams_stereo.egg-info/dependency_links.txt
+dreams_stereo.egg-info/entry_points.txt
+dreams_stereo.egg-info/requires.txt
+dreams_stereo.egg-info/top_level.txt
+dreams_stereo.egg-info/zip-safe
+resource/dreams_stereo

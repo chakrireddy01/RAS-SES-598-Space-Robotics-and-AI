@@ -1,0 +1,21 @@
+[5.988s] Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/build --no-deps symlink_data
+[6.591s] running develop
+[6.902s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.902s]   self.local_index = Environment(self.shadow_path + sys.path)
+[6.989s] running egg_info
+[7.044s] writing dreams_stereo.egg-info/PKG-INFO
+[7.045s] writing dependency_links to dreams_stereo.egg-info/dependency_links.txt
+[7.046s] writing entry points to dreams_stereo.egg-info/entry_points.txt
+[7.047s] writing requirements to dreams_stereo.egg-info/requires.txt
+[7.048s] writing top-level names to dreams_stereo.egg-info/top_level.txt
+[7.173s] reading manifest file 'dreams_stereo.egg-info/SOURCES.txt'
+[7.180s] writing manifest file 'dreams_stereo.egg-info/SOURCES.txt'
+[7.252s] running build_ext
+[7.252s] Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/python3.12/site-packages/dreams-stereo.egg-link (link to .)
+[7.254s] Installing feature_matcher script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/dreams_stereo
+[7.254s] Installing feature_tracker script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/dreams_stereo
+[7.254s] Installing stereo_processor script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/dreams_stereo
+[7.255s] 
+[7.255s] Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo
+[7.255s] running symlink_data
+[7.371s] Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/dreams_stereo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/dreams_stereo/build --no-deps symlink_data

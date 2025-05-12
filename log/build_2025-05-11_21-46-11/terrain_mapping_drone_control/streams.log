@@ -1,0 +1,25 @@
+[3.326s] Invoking command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/build --no-deps symlink_data
+[3.992s] running develop
+[4.232s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[4.234s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.328s] running egg_info
+[4.390s] writing terrain_mapping_drone_control.egg-info/PKG-INFO
+[4.392s] writing dependency_links to terrain_mapping_drone_control.egg-info/dependency_links.txt
+[4.393s] writing entry points to terrain_mapping_drone_control.egg-info/entry_points.txt
+[4.396s] writing requirements to terrain_mapping_drone_control.egg-info/requires.txt
+[4.397s] writing top-level names to terrain_mapping_drone_control.egg-info/top_level.txt
+[4.489s] reading manifest file 'terrain_mapping_drone_control.egg-info/SOURCES.txt'
+[4.494s] writing manifest file 'terrain_mapping_drone_control.egg-info/SOURCES.txt'
+[4.551s] running build_ext
+[4.552s] Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages/terrain-mapping-drone-control.egg-link (link to .)
+[4.554s] Installing aruco_tracker script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+[4.557s] Installing cylinder_landing_node script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+[4.558s] Installing feature_tracker script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+[4.558s] Installing mission_node script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+[4.558s] Installing pose_visualizer script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+[4.558s] Installing px4_odom_converter script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+[4.558s] Installing spiral_trajectory script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/bin
+[4.558s] 
+[4.559s] Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control
+[4.559s] running symlink_data
+[4.693s] Invoked command in '/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/terrain_mapping_drone_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/terrain_mapping_drone_control/build --no-deps symlink_data

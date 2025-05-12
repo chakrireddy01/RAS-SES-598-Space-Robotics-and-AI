@@ -1,0 +1,2 @@
+[console_scripts]
+boustrophedon_controller = first_order_boustrophedon_navigator.boustrophedon_controller:main

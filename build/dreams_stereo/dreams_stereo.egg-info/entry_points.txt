@@ -1,0 +1,4 @@
+[console_scripts]
+feature_matcher = dreams_stereo.feature_matcher:main
+feature_tracker = dreams_stereo.feature_tracker:main
+stereo_processor = dreams_stereo.stereo_processor:main

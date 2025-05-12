@@ -1,0 +1,30 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+creating first_order_boustrophedon_navigator.egg-info
+writing first_order_boustrophedon_navigator.egg-info/PKG-INFO
+writing dependency_links to first_order_boustrophedon_navigator.egg-info/dependency_links.txt
+writing entry points to first_order_boustrophedon_navigator.egg-info/entry_points.txt
+writing requirements to first_order_boustrophedon_navigator.egg-info/requires.txt
+writing top-level names to first_order_boustrophedon_navigator.egg-info/top_level.txt
+writing manifest file 'first_order_boustrophedon_navigator.egg-info/SOURCES.txt'
+reading manifest file 'first_order_boustrophedon_navigator.egg-info/SOURCES.txt'
+writing manifest file 'first_order_boustrophedon_navigator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/python3.12/site-packages/first-order-boustrophedon-navigator.egg-link (link to .)
+Installing boustrophedon_controller script to /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/bin
+
+Installed /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator
+running symlink_data
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/ament_index
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/ament_index/resource_index
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/ament_index/resource_index/packages
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/resource/first_order_boustrophedon_navigator -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/ament_index/resource_index/packages
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/package.xml -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/launch
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/launch/boustrophedon.launch.py -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/launch
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/first_order_boustrophedon_navigator
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/scripts/boustrophedon_controller -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/lib/first_order_boustrophedon_navigator
+creating /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/config
+symbolically linking /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/build/first_order_boustrophedon_navigator/config/boustrophedon_params.yaml -> /home/chakrireddy1974/RAS-SES-598-Space-Robotics-and-AI/install/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/config

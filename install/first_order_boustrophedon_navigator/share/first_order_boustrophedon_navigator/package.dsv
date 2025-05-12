@@ -1,0 +1,15 @@
+source;share/first_order_boustrophedon_navigator/hook/path.ps1
+source;share/first_order_boustrophedon_navigator/hook/path.dsv
+source;share/first_order_boustrophedon_navigator/hook/path.sh
+source;share/first_order_boustrophedon_navigator/hook/pythonpath.ps1
+source;share/first_order_boustrophedon_navigator/hook/pythonpath.dsv
+source;share/first_order_boustrophedon_navigator/hook/pythonpath.sh
+source;share/first_order_boustrophedon_navigator/hook/pythonscriptspath.ps1
+source;share/first_order_boustrophedon_navigator/hook/pythonscriptspath.dsv
+source;share/first_order_boustrophedon_navigator/hook/pythonscriptspath.sh
+source;share/first_order_boustrophedon_navigator/hook/ament_prefix_path.ps1
+source;share/first_order_boustrophedon_navigator/hook/ament_prefix_path.dsv
+source;share/first_order_boustrophedon_navigator/hook/ament_prefix_path.sh
+source;../../build/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath_develop.ps1
+source;../../build/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath_develop.dsv
+source;../../build/first_order_boustrophedon_navigator/share/first_order_boustrophedon_navigator/hook/pythonpath_develop.sh
